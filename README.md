@@ -23,11 +23,22 @@
 
 ## 安装
 
+macOS / Linux：
+
 ```bash
 chmod +x install-skills.sh
 ./install-skills.sh --user
 ./install-skills.sh --project
 ./install-skills.sh --both
+```
+
+Windows PowerShell：
+
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass
+.\install-skills.ps1 -Mode user
+.\install-skills.ps1 -Mode project -ProjectDir C:\path\to\thesis-repo
+.\install-skills.ps1 -Mode both -ProjectDir C:\path\to\thesis-repo
 ```
 
 安装位置：
