@@ -86,3 +86,7 @@ Polish:
 - One `.tex` file (or section range) per invocation by design
 - Output aims to be drop-in replaceable LaTeX without rewriting preamble, bibliography files, labels, or formulas
 - `source-grounded` is never silently enabled; the user must select it or accept an explicit suggestion when materials are sufficient
+
+## License
+
+MIT. See [LICENSE](LICENSE).
